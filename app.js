@@ -2,7 +2,7 @@
 var app = require("express")();
 
 // Import controllers
-var homeController = require("./controllers/home");
+var homeController = require("./src/controllers/home");
 
 // Register route actions
 app.get("/", homeController.index);
